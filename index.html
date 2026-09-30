@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITZ FIZZ | Hero Scroll Animation</title>
+    <meta
+      name="description"
+      content="Premium hero section with scroll-driven motion and GSAP animation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="brand">
+          <span class="brand-mark">I</span>
+          <span class="brand-name">ITZ FIZZ</span>
+        </div>
+        <nav class="top-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#process">Process</a>
+          <a href="#insights">Insights</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="about">
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <p class="eyebrow">Performance without compromise</p>
+              <h1 class="headline" aria-label="WELCOME ITZ FIZZ">
+                <span>W</span>
+                <span>E</span>
+                <span>L</span>
+                <span>C</span>
+                <span>O</span>
+                <span>M</span>
+                <span>E</span>
+                <span class="space" aria-hidden="true"> </span>
+                <span>I</span>
+                <span>T</span>
+                <span>Z</span>
+                <span class="space" aria-hidden="true"> </span>
+                <span>F</span>
+                <span>I</span>
+                <span>Z</span>
+                <span>Z</span>
+              </h1>
+
+              <div class="stats" aria-label="Key metrics">
+                <div class="stat-item">
+                  <strong>35%</strong>
+                  <span>faster launches</span>
+                </div>
+                <div class="stat-item">
+                  <strong>92%</strong>
+                  <span>conversion uplift</span>
+                </div>
+                <div class="stat-item">
+                  <strong>4.9/5</strong>
+                  <span>client satisfaction</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual-wrap">
+              <div class="visual-tag">LIVE MOTION</div>
+              <div class="hero-visual" aria-label="Sports car illustration">
+                <div class="visual-glow"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80"
+                  alt="Luxury sports car"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-panel" id="process">
+          <div class="panel-grid">
+            <div class="panel-copy">
+              <p class="panel-kicker">Built for momentum</p>
+              <h2>Precision strategy shaped around modern experiences.</h2>
+            </div>
+            <div class="panel-card">
+              <p>
+                We design high-impact digital experiences that blend performance,
+                atmosphere, and clarity—turning motion into a strategic advantage.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-panel lower" id="insights">
+          <div class="insight-grid">
+            <article>
+              <span>01</span>
+              <h3>Immersive storytelling</h3>
+              <p>Each interaction is tuned to keep attention and deliver emotion.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Fast, fluid motion</h3>
+              <p>Motion is guided by scroll progress and refined for natural pacing.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Conversion-focused design</h3>
+              <p>Clear messaging and visual hierarchy guide users toward action.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
